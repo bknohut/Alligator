@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 30f66b15332857c4caa6a3246449b7dd
+timeCreated: 1535367311
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Aligator_bone_BLLeg00
+    100004: Aligator_bone_BLLeg01
+    100006: Aligator_bone_BLLeg02
+    100008: Aligator_bone_BLLeg_end
+    100010: Aligator_bone_BRLeg00
+    100012: Aligator_bone_BRLeg01
+    100014: Aligator_bone_BRLeg02
+    100016: Aligator_bone_BRLeg_end
+    100018: Aligator_bone_chest
+    100020: Aligator_bone_FLLeg00
+    100022: Aligator_bone_FLLeg01
+    100024: Aligator_bone_FLLeg02
+    100026: Aligator_bone_FLLeg03
+    100028: Aligator_bone_FLLeg_end
+    100030: Aligator_bone_FRLeg00
+    100032: Aligator_bone_FRLeg01
+    100034: Aligator_bone_FRLeg02
+    100036: Aligator_bone_FRLeg03
+    100038: Aligator_bone_FRLeg_end
+    100040: Aligator_bone_head
+    100042: Aligator_bone_head_end
+    100044: Aligator_bone_headbottom
+    100046: Aligator_bone_headbottom_end
+    100048: Aligator_bone_spine
+    100050: Aligator_bone_tail00
+    100052: Aligator_bone_tail01
+    100054: Aligator_bone_tail02
+    100056: Aligator_bone_tail_end
+    100058: Aligator_help_POM
+    400000: //RootNode
+    400002: Aligator_bone_BLLeg00
+    400004: Aligator_bone_BLLeg01
+    400006: Aligator_bone_BLLeg02
+    400008: Aligator_bone_BLLeg_end
+    400010: Aligator_bone_BRLeg00
+    400012: Aligator_bone_BRLeg01
+    400014: Aligator_bone_BRLeg02
+    400016: Aligator_bone_BRLeg_end
+    400018: Aligator_bone_chest
+    400020: Aligator_bone_FLLeg00
+    400022: Aligator_bone_FLLeg01
+    400024: Aligator_bone_FLLeg02
+    400026: Aligator_bone_FLLeg03
+    400028: Aligator_bone_FLLeg_end
+    400030: Aligator_bone_FRLeg00
+    400032: Aligator_bone_FRLeg01
+    400034: Aligator_bone_FRLeg02
+    400036: Aligator_bone_FRLeg03
+    400038: Aligator_bone_FRLeg_end
+    400040: Aligator_bone_head
+    400042: Aligator_bone_head_end
+    400044: Aligator_bone_headbottom
+    400046: Aligator_bone_headbottom_end
+    400048: Aligator_bone_spine
+    400050: Aligator_bone_tail00
+    400052: Aligator_bone_tail01
+    400054: Aligator_bone_tail02
+    400056: Aligator_bone_tail_end
+    400058: Aligator_help_POM
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
