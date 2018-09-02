@@ -8,10 +8,9 @@ public enum AlligatorState
     idle = 0,
     moving = 1
 }
-
 public class Alligator : MonoBehaviour
 {
-    #region Variables
+ #region Variables
 
     // Alligator states' execution functions
     private delegate IEnumerator coroutine();
@@ -34,16 +33,10 @@ public class Alligator : MonoBehaviour
     [SerializeField] private float _maxIdleTime;
     [SerializeField] private float _maxRotationTime;
 
-    private float _minSpeed = 0f;
-    private float _minAcceleration = 0f;
+    private float _minSpeed = 1f;
+    private float _minAcceleration = 1f;
     private float _minIdleTime = 1f;
     private float _minRotationTime = 1f;
-
-    public float Randomness
-    {
-        get { return (_randomness >= 0f ? _randomness : 0f); }
-        set { _randomness = value; }
-    }
 
  #endregion
  #region Methods
@@ -62,7 +55,6 @@ public class Alligator : MonoBehaviour
     {
         StartCoroutine(Live());
     }
-    
     // For debug purposes, shows a sphere around the transform.
     // The gameobject chooses a point inside this sphere.
     private void OnDrawGizmos()
@@ -154,11 +146,12 @@ public class Alligator : MonoBehaviour
         // set the destination
         _agent.destination = finalPosition;
     }
+    // returns perlin noise
     private float GetNoise()
     {
         // get noise from random coordinates of the noise field
-        float x = Random.Range(0f, Randomness * Randomness);
-        float y = Random.Range(0f, Randomness * Randomness);
+        float x = Random.Range(0f, _randomness * _randomness);
+        float y = Random.Range(0f, _randomness * _randomness);
         float noise = Mathf.PerlinNoise(x, y);
         // perlin noise values may be slightly below or above 0-1 interval
         if (noise < 0) noise = 0;
