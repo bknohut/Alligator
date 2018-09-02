@@ -978,11 +978,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _idleAvatar: {fileID: 9000000, guid: 69dac195edcf247499e8dcc8bc647033, type: 3}
   _walkAvatar: {fileID: 9000000, guid: 30f66b15332857c4caa6a3246449b7dd, type: 3}
-  _randomness: 100
+  _randomness: 30
   _radius: 2
   _maxSpeed: 11
-  _maxAcceleration: 11
-  _maxIdleTime: 0
+  _maxAcceleration: 7
+  _maxIdleTime: 2
   _maxRotationTime: 2
 --- !u!137 &137727079210699772
 SkinnedMeshRenderer:
