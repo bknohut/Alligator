@@ -41,7 +41,7 @@ public class Alligator : MonoBehaviour
 
     public float Randomness
     {
-        get { return (_randomness >= 0f ? _randomness : 0f) / 100; }
+        get { return (_randomness >= 0f ? _randomness : 0f); }
         set { _randomness = value; }
     }
 
@@ -65,13 +65,11 @@ public class Alligator : MonoBehaviour
     
     // For debug purposes, shows a sphere around the transform.
     // The gameobject chooses a point inside this sphere.
-    /*
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, _radius);
     }
-    */
 
     private IEnumerator Live()
     {
@@ -159,8 +157,8 @@ public class Alligator : MonoBehaviour
     private float GetNoise()
     {
         // get noise from random coordinates of the noise field
-        float x = Random.Range(0f, Randomness);
-        float y = Random.Range(0f, Randomness);
+        float x = Random.Range(0f, Randomness * Randomness);
+        float y = Random.Range(0f, Randomness * Randomness);
         float noise = Mathf.PerlinNoise(x, y);
         // perlin noise values may be slightly below or above 0-1 interval
         if (noise < 0) noise = 0;
